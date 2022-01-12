@@ -1,0 +1,128 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel='stylesheet prefetch' href='https://cdn.rawgit.com/Dogfalo/materialize/master/dist/css/materialize.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="intro deep-orange lighten-2 z-depth-1">
+      <h1 class="grey-text text-lighten-5">Oscar Kakoma</h1>
+      <h5 clas="grey lighten-4 grey-text text-darken-1">bienvenu</h5>
+    </div>
+    <div class="container about">
+      <h5>à propos de moi</h5>
+      <h6>Je me présente</h6>
+      <hr>
+      <div class="row">
+        <div class="col s12 m4 l4">
+          <h6>parcours</h6>
+          <p>Après avoir terminé le lycée, j'ai décidé de me spécialiser en intégrant l'Estiam Lyon. Par la suite, j'aimerais me spécialiser dans le développement web qui est un domaine qui me passionne.
+          </p>
+        </div>
+        <div class="col s12 m4 l4">
+          <h6>Profil</h6>
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <img src="http://labs.qnimate.com/portfolio-materialize/images/profile.png" width="64" height="64">
+              <p>Passionné par la réalisation et le développement de projets web, je me suis tout naturellement tourné vers une carrière de développeur web. Aujourd'hui je souhaite intégrer une entreprise dynamique et jeune, aussi je serai ravi de rejoindre votre équipe en tant que développeur web.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4 l4">
+          <h6>Stages</h6>
+          <ul class="collapsible">
+            <li class="active">
+              <div class="collapsible-header"><i class="mdi-av-web"></i>TF Autos-02/02/2021-22/04/2021</div>
+              <div class="collapsible-body"><p>
+
+                Classer et archiver des documents,
+                filtrer les appels téléphoniques,
+                gérer des dossiers transversaux.
+                
+              </p></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="mdi-image-color-lens"></i>Essam Enertion-04/02/2020-22/04/2020</div>
+              <div class="collapsible-body"><p>
+                Collecter, rechercher, produire des informations structurées,
+                traiter le courrier et les appels téléphoniques,
+                accueillir, orienter et informer.</p></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="mdi-hardware-gamepad"></i>Nature pharma-02/02/2019-22/04/2019</div>
+              <div class="collapsible-body"><p>
+                Gérer les stocks,
+                Gérer les relations administratives avec les clients et les usagers,
+                suivi de la trésoreries.<a href="#"></a></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container portfolio">
+      <h5>Ancien projet</h5>
+      <h6>Mes précédents projets</h6>
+      <hr>
+      <div class="row">
+        <div class="col s12 m12 l12 portfolio-holder">
+         
+          <img class="materialboxed" src="https://th.bing.com/th/id/OIP.0dCuvoa6NDADkOSIY6CNTQHaFj?w=243&h=182&c=7&r=0&o=5&dpr=1.5&pid=1.7">
+          <img class="materialboxed" src="https://th.bing.com/th/id/OIP.fgNkD_7AcMpTn97oTa_cygHaFA?w=242&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7">
+          <img class="materialboxed" src="https://th.bing.com/th/id/OIP.EA8uSzin5JVd3XAtqEaxiQHaF1?w=203&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7">
+        </div>
+      </div>
+    </div>
+    <div class="container contact">
+      <h5>contact</h5>
+      <h6>me contacter</h6>
+      <hr>
+      <div class="row">
+        <div class="col s12 m6 l6">
+          <div class="row">
+            <form class="col s12" method="POST" action="contact.php">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input name="Prénom" id="Prénom" type="text" class="validate" required>
+                  <label for="Prénom">Prénom</label>
+                </div>
+                <div class="input-field col s6">
+                  <input name="Nom" id="Nom" type="text" class="validate" required>
+                  <label for="Nom">Nom</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input name="email" id="email" type="email" class="validate" required>
+                  <label for="email">E-Mail</label>
+                </div>
+              </div>
+              <textarea name="msg" class="materialize-textarea" placeholder="Votre message" required></textarea>
+              <button class="btn waves-effect waves-light" type="submit" name="action">soumettre<i class="mdi-content-send right"></i></button>
+            </form>
+          </div>
+        </div>
+        <div class="col s12 m6 l6 contact-holder">
+          <h6 class="mdi-communication-phone">Téléphone</h6>
+          <p>07 67 80 98 07</p>
+          <h6 class="mdi-action-open-in-browser">Site web</h6>
+          <p>Oscar.portfolio.com</p>
+          <h6 class="mdi-communication-email">Email</h6>
+          <p>Oscar.kakomawayecha.pro@gmail.com</p>
+          <h6 class="mdi-communication-live-help">Aide</h6>
+          <p><a href="#">Page de support</a></p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-copyright">
+        <div class="container">
+        ©Copyright 2021 Oscar.kakoma Inc.
+        </div>
+      </div>
+    </footer>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdn.rawgit.com/Dogfalo/materialize/master/dist/js/materialize.min.js'></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
